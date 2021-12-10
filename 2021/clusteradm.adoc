@@ -2,4 +2,24 @@ A few Project milestones kept the cluster administration team busy in 2021.  Fir
 
 Aside from work related to these milestones, the team provides and maintains resources that are easy to take for granted.  For example, with 150 physical machines and 400 jails in the cluster, staying on top of hardware updates and failures is a regular task.  Disks need replacing, software needs fixing and updating,  networking issues need to be corrected, and backup plans need to be maintained in case of disaster.  New servers to keep up with demand need to be added to the cluster.  New Brazilian mirrors, three powerpc machines, a new Phabricator server, a new CGI backend server, and a new cluster site in Japan were all added to the cluster in 2021.  The new mirrors in Brazil and Japan were the result of generous donations from Nic.br and Broadband Tower.
 
-The FreeBSD Foundation contributes to Cluster Administration by allocating financial resources for hardware purchases.  For example, with your donations XXX was purchased (in 2021?).  The Foundation also supports the cluster administration with human resources.  Li-Wen Hsu, a full-time employee of the Foundation, is an active member of the Cluster Administration Team.
+The FreeBSD Foundation contributes to Cluster Administration by allocating financial resources for hardware purchases.  Here are some of the hardware purchase the Foundation made since 2020 to support the Cluster Administration team and the Project:
+
+- SSD backed pkg and Git mirror for US east coast
+- new servers to run the cgit web interface
+- web server to host web sites (www, docs, cgi, and ftp-sync)
+- new web servers to run the FreeBSD Bugzilla instance and the wiki [1]
+- new web server to hosts reviews.freebsd.org and some other web services
+- new server to host the Git repository
+- two new servers for expruns [2]
+- new FTP and pkg mirror for Malaysia
+- four new Ampere eMAG pkg builders for arm64 packages
+- reference servers [3]
+- new server to build freebsd-update for arm64.
+
+The Foundation also supports the cluster administration with human resources.  Li-Wen Hsu, a full-time employee of the Foundation, is an active member of the Cluster Administration Team.
+
+[1] With the old hardware, both sites were often timing out.  This has been resolved with the new servers.
+
+[2] These are high-core-count systems necessary for testing package builds.
+
+[3] These host jails that FreeBSD committers can access to test src and ports on arm64.  This was required for arm64 to become a tier1 platform for FreeBSD 13.0.
